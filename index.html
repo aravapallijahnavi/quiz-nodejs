@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Indian General Knowledge Quiz</title>
+</head>
+<body>
+    <div class="quiz-container">
+        <form id="quiz-form">
+            <div class="question-container" id="question1">
+                <h1>Question 1: Which river is known as the "Ganges" in India?</h1>
+                <label>
+                    <input type="radio" name="answer1" value="a"> A. Yamuna
+                </label>
+                <label>
+                    <input type="radio" name="answer1" value="b"> B. Godavari
+                </label>
+                <label>
+                    <input type="radio" name="answer1" value="c"> C. Ganga
+                </label>
+                <label>
+                    <input type="radio" name="answer1" value="d"> D. Brahmaputra
+                </label>
+                <br>
+                <button type="button" onclick="nextQuestion(1)">Next</button>
+            </div>
+
+            <div class="question-container" id="question2" style="display: none;">
+                <h1>Question 2: Which Indian state is famous for the tea gardens in Darjeeling?</h1>
+                <label>
+                    <input type="radio" name="answer2" value="a"> A. Kerala
+                </label>
+                <label>
+                    <input type="radio" name="answer2" value="b"> B. Assam
+                </label>
+                <label>
+                    <input type="radio" name="answer2" value="c"> C. West Bengal
+                </label>
+                <label>
+                    <input type="radio" name="answer2" value="d"> D. Karnataka
+                </label>
+                <br>
+                <button type="button" onclick="prevQuestion(2)">Previous</button>
+                <button type="button" onclick="nextQuestion(2)">Next</button>
+            </div>
+
+            <div class="question-container" id="question3" style="display: none;">
+                <h1>Question 3: What is the national animal of India?</h1>
+                <label>
+                    <input type="radio" name="answer3" value="a"> A. Tiger
+                </label>
+                <label>
+                    <input type="radio" name="answer3" value="b"> B. Elephant
+                </label>
+                <label>
+                    <input type="radio" name="answer3" value="c"> C. Lion
+                </label>
+                <label>
+                    <input type="radio" name="answer3" value="d"> D. Leopard
+                </label>
+                <br>
+                <button type="button" onclick="prevQuestion(3)">Previous</button>
+                <button type="button" onclick="nextQuestion(3)">Next</button>
+            </div>
+
+            <div class="question-container" id="question4" style="display: none;">
+                <h1>Question 4: In which year did India become a republic?</h1>
+                <label>
+                    <input type="radio" name="answer4" value="a"> A. 1947
+                </label>
+                <label>
+                    <input type="radio" name="answer4" value="b"> B. 1950
+                </label>
+                <label>
+                    <input type="radio" name="answer4" value="c"> C. 1962
+                </label>
+                <label>
+                    <input type="radio" name="answer4" value="d"> D. 1971
+                </label>
+                <br>
+                <button type="button" onclick="prevQuestion(4)">Previous</button>
+                <button type="button" onclick="nextQuestion(4)">Next</button>
+            </div>
+
+            <div class="question-container" id="question5" style="display: none;">
+                <h1>Question 5: Which Indian scientist won the Nobel Prize in Physics in 1930?</h1>
+                <label>
+                    <input type="radio" name="answer5" value="a"> A. C. V. Raman
+                </label>
+                <label>
+                    <input type="radio" name="answer5" value="b"> B. S. Chandrasekhar
+                </label>
+                <label>
+                    <input type="radio" name="answer5" value="c"> C. Homi J. Bhabha
+                </label>
+                <label>
+                    <input type="radio" name="answer5" value="d"> D. Jagdish Chandra Bose
+                </label>
+                <br>
+                <button type="button" onclick="prevQuestion(5)">Previous</button>
+                <button type="button" onclick="nextQuestion(5)">Next</button>
+            </div>
+
+            <div class="question-container" id="question6" style="display: none;">
+                <h1>Question 6: What is the currency of India?</h1>
+                <label>
+                    <input type="radio" name="answer6" value="a"> A. Rupee
+                </label>
+                <label>
+                    <input type="radio" name="answer6" value="b"> B. Rupiah
+                </label>
+                <label>
+                    <input type="radio" name="answer6" value="c"> C. Ringgit
+                </label>
+                <label>
+                    <input type="radio" name="answer6" value="d"> D. Baht
+                </label>
+                <br>
+                <button type="button" onclick="prevQuestion(6)">Previous</button>
+                <button type="button" onclick="nextQuestion(6)">Next</button>
+            </div>
+
+            <div class="question-container" id="question7" style="display: none;">
+                <h1>Question 7: Which Indian cricketer holds the record for the most runs in Test cricket?</h1>
+                <label>
+                    <input type="radio" name="answer7" value="a"> A. Sachin Tendulkar
+                </label>
+                <label>
+                    <input type="radio" name="answer7" value="b"> B. Rahul Dravid
+                </label>
+                <label>
+                    <input type="radio" name="answer7" value="c"> C. Sunil Gavaskar
+                </label>
+                <label>
+                    <input type="radio" name="answer7" value="d"> D. Virat Kohli
+                </label>
+                <br>
+                <button type="button" onclick="prevQuestion(7)">Previous</button>
+                <button type="button" onclick="nextQuestion(7)">Next</button>
+            </div>
+
+            <div class="question-container" id="question8" style="display: none;">
+                <h1>Question 8: Who was the first woman Prime Minister of India?</h1>
+                <label>
+                    <input type="radio" name="answer8" value="a"> A. Indira Gandhi
+                </label>
+                <label>
+                    <input type="radio" name="answer8" value="b"> B. Sonia Gandhi
+                </label>
+                <label>
+                    <input type="radio" name="answer8" value="c"> C. Pratibha Patil
+                </label>
+                <label>
+                    <input type="radio" name="answer8" value="d"> D. Mamata Banerjee
+                </label>
+                <br>
+                <button type="button" onclick="prevQuestion(8)">Previous</button>
+                <button type="button" onclick="nextQuestion(8)">Next</button>
+            </div>
+
+            <div class="question-container" id="question9" style="display: none;">
+                <h1>Question 9: In which year did India gain independence?</h1>
+                <label>
+                    <input type="radio" name="answer9" value="a"> A. 1942
+                </label>
+                <label>
+                    <input type="radio" name="answer9" value="b"> B. 1947
+                </label>
+                <label>
+                    <input type="radio" name="answer9" value="c"> C. 1950
+                </label>
+                <label>
+                    <input type="radio" name="answer9" value="d"> D. 1962
+                </label>
+                <br>
+                <button type="button" onclick="prevQuestion(9)">Previous</button>
+                <button type="button" onclick="nextQuestion(9)">Next</button>
+            </div>
+
+            <div class="question-container" id="question10" style="display: none;">
+                <h1>Question 10: Which city is known as the Silicon Valley of India?</h1>
+                <label>
+                    <input type="radio" name="answer10" value="a"> A. Bengaluru
+                </label>
+                <label>
+                    <input type="radio" name="answer10" value="b"> B. Chennai
+                </label>
+                <label>
+                    <input type="radio" name="answer10" value="c"> C. Hyderabad
+                </label>
+                <label>
+                    <input type="radio" name="answer10" value="d"> D. Pune
+                </label>
+                <br>
+                <button type="button" onclick="prevQuestion(10)">Previous</button>
+                <button type="button" onclick="checkAnswers()">Submit</button>
+            </div>
+        </form>
+        <p id="result"></p>
+    </div>
+
+    <script>
+        let currentQuestion = 1;
+        let correctCount = 0;
+        const correctAnswers = ['c', 'c', 'a', 'b', 'a', 'a', 'a', 'a', 'b', 'a'];
+
+        function nextQuestion(questionNumber) {
+            document.getElementById(`question${questionNumber}`).style.display = 'none';
+            currentQuestion++;
+
+            if (currentQuestion <= 10) {
+                document.getElementById(`question${currentQuestion}`).style.display = 'block';
+            } else {
+                document.getElementById('submitBtn').style.display = 'block';
+            }
+        }
+
+        function prevQuestion(questionNumber) {
+            document.getElementById(`question${questionNumber}`).style.display = 'none';
+            currentQuestion--;
+
+            if (currentQuestion >= 1) {
+                document.getElementById(`question${currentQuestion}`).style.display = 'block';
+            }
+        }
+
+        function checkAnswers() {
+            for (let i = 1; i <= 10; i++) {
+                const selectedAnswer = document.querySelector(`input[name="answer${i}"]:checked`);
+                const resultParagraph = document.getElementById('result');
+
+                if (selectedAnswer) {
+                    const selectedValue = selectedAnswer.value;
+                    const correctValue = correctAnswers[i - 1];
+
+                    if (selectedValue === correctValue) {
+                        selectedAnswer.parentElement.style.backgroundColor = '#4caf50'; // Green background
+                        correctCount++;
+                    } else {
+                        selectedAnswer.parentElement.style.backgroundColor = '#ff0000'; // Red background for the chosen option
+                        document.querySelector(`input[value="${correctValue}"]`).parentElement.style.backgroundColor = '#4caf50'; // Green background for the correct option
+                        resultParagraph.innerHTML += `<br>Question ${i}: Correct Answer: ${correctValue}`;
+                    }
+                }
+            }
+
+            const totalScore = (correctCount / 10) * 100;
+            resultParagraph.innerHTML += `<br><strong>Correct Answers:</strong> ${correctCount} out of 10`;
+            resultParagraph.innerHTML += `<br><strong>Total Score:</strong> ${totalScore.toFixed(2)}%`;
+            resultParagraph.innerHTML += `<br>Thank you for taking the quiz!`;
+
+            // Hide the submit button after submitting
+            document.getElementById('submitBtn').style.display = 'none';
+        }
+    </script>
+    </body>
+</html>
